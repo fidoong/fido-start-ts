@@ -1,4 +1,7 @@
-export const one = 1
-export const two = 2
+interface User {
+  name: string
+}
 
-console.log('tet')
+export const foo: User = {
+  name: 'fidoong',
+}
